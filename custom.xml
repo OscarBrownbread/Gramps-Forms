@@ -181,53 +181,72 @@
         </section>
     </form>
     <form id='IEDeath' type='Death Cert.' title='Irish Death Certificate'>
-        <heading>
-            <_attribute>Certificate Number</_attribute>
+		<heading>
+            <_attribute>Superintendent Registrar&apos;s District</_attribute>
+        </heading>
+		<heading>
+            <_attribute>Registrar&apos;s District</_attribute>
+        </heading>
+		<heading>
+            <_attribute>District</_attribute>
+        </heading>
+		<heading>
+            <_attribute>Union</_attribute>
+        </heading>
+		<heading>
+            <_attribute>County</_attribute>
+        </heading>
+		<heading>
+            <_attribute>Certificate number</_attribute>
+        </heading>
+		<heading>
+            <_attribute>Page number</_attribute>
         </heading>
         <heading>
-            <_attribute>Entry Number</_attribute>
+            <_attribute>(1.) Entry No.</_attribute>
         </heading>
         <heading>
-            <_attribute>Registration District</_attribute>
+            <_attribute>(10.) When Registered</_attribute>
         </heading>
-        <heading>
-            <_attribute>Administrative Area</_attribute>
-            <_longname>County/Administrative Area</_longname>
-        </heading>
-        <heading>
-            <_attribute>Date Registered</_attribute>
-        </heading>
-        <heading>
-            <_attribute>Registrar</_attribute>
+		<heading>
+            <_attribute>(11.) Signature of Registrar</_attribute>
         </heading>
         <section role='Primary' type='person' title='Deceased'>
             <column>
                 <_attribute>Name</_attribute>
+				<_longname>Name and Surname</_longname>
+            </column>
+			<column>
+                <_attribute>Date of Death</_attribute>
+				<_longname>(2.) Date and Place of Death</_longname>
+            </column>
+			<column>
+                <_attribute>Place of Death</_attribute>
+				<_longname>(2.) Date and Place of Death</_longname>
             </column>
             <column>
                 <_attribute>Sex</_attribute>
+				<_longname>(4.) M or F for Male or Female</_longname>
             </column>
             <column>
-                <_attribute>Maiden Surname</_attribute>
-                <_longname>Maiden surname of woman who was married</_longname>
+                <_attribute>Condition</_attribute>
+                <_longname>(5.) Widowed or Married</_longname>
             </column>
             <column>
                 <_attribute>Age</_attribute>
-            </column>
-            <column>
-                <_attribute>Date of Birth</_attribute>
-            </column>
-            <column>
-                <_attribute>Place of Birth</_attribute>
+				<_longname>(6.) Age last Birthday</_longname>
             </column>
             <column>
                 <_attribute>Occupation</_attribute>
-            </column>
-            <column>
-                <_attribute>Usual Address</_attribute>
+				<_longname>(7.) Rank, Profession, or Occupation</_longname>
             </column>
             <column>
                 <_attribute>Cause of Death</_attribute>
+				<_longname>(8.) Certified Cause of Death and Duration of Illness</_longname>
+            </column>
+			<column>
+                <_attribute>Duration of Illness</_attribute>
+				<_longname>(8.) Certified Cause of Death and Duration of Illness</_longname>
             </column>
         </section>
         <section role='Informant' type='person' title='Informant'>
@@ -237,8 +256,13 @@
             <column>
                 <_attribute>Signed</_attribute>
             </column>
+			<column>
+                <_attribute>Relation to deceased</_attribute>
+				<_longname>(9.) e.g. Son, Daughter</_longname>
+            </column>
             <column>
                 <_attribute>Description</_attribute>
+				<_longname>(9.) e.g. Present at death</_longname>
             </column>
             <column>
                 <_attribute>Residence</_attribute>
