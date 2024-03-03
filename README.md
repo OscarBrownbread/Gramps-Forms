@@ -9,6 +9,4 @@ Birth to "Birth Cert."
 Marriage to "Marr. Cert."
 Death to "Death Cert."
 
-Irish language form fields not included yet.
-
 
