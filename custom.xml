@@ -330,11 +330,11 @@
             </column>
             <column>
                 <_attribute>Age</_attribute>
-                <size>4</size>
+                <size>2</size>
             </column>
             <column>
                 <_attribute>Sex</_attribute>
-                <size>4</size>
+                <size>2</size>
             </column>
             <column>
                 <_attribute>Occupation</_attribute>
@@ -460,6 +460,98 @@
                 <_attribute>Disability</_attribute>
                 <size>9</size>
                 <_longname>"Deaf and Dumb", "Dumb only", "Blind", "Imbecile or Idiot", or "Lunatic"</_longname>
+            </column>
+        </section>
+    </form>
+	<form id='IE1926' type='Census' title='1926 Census of Ireland' date='18 April 1926'>
+        <heading>
+            <_attribute>County or County Borough</_attribute>
+        </heading>
+        <heading>
+            <_attribute>Urban District, Town or Village</_attribute>
+        </heading>
+        <heading>
+            <_attribute>District Electoral Division or Ward</_attribute>
+        </heading>
+        <heading>
+            <_attribute>Enumeration District</_attribute>
+        </heading>
+        <heading>
+            <_attribute>Townland or Street</_attribute>
+        </heading>
+        <heading>
+            <_attribute>Sub-District</_attribute>
+        </heading>
+        <section role='Primary' type='multi'>
+            <column>
+                <_attribute>Name</_attribute>
+                <_longname>Name and Surname (a)</_longname>
+				<size>16</size>
+            </column>
+            <column>
+                <_attribute>Relationship</_attribute>
+                <_longname>Relationship to head of Household (b)</_longname>
+				<size>7</size>
+            </column>
+            <column>
+                <_attribute>Age</_attribute>
+				<_longname>Age (c)</_longname>
+                <size>5</size>
+            </column>
+			<column>
+                <_attribute>Sex</_attribute>
+				<_longname>Sex (d)</_longname>
+                <size>3</size>
+            </column>
+            <column>
+                <_attribute>Marriage or Orphanhood</_attribute>
+                <_longname>Marriage or Orphanhood (e)</_longname>
+				<size>7</size>
+            </column>
+            <column>
+                <_attribute>Birthplace</_attribute>
+				<_longname>Birthplace (f)</_longname>
+                <size>7</size>
+            </column>
+            <column>
+                <_attribute>Irish Language</_attribute>
+				<_longname>Irish Language (g)</_longname>
+                <size>7</size>
+            </column>
+            <column>
+                <_attribute>Religon</_attribute>
+				<_longname>Religon (h)</_longname>
+                <size>7</size>
+            </column>
+			<column>
+                <_attribute>Occupation</_attribute>
+				<_longname>Occupation (k)</_longname>
+                <size>9</size>
+            </column>
+			<column>
+                <_attribute>Employment</_attribute>
+				<_longname>Employment (l)</_longname>
+                <size>6</size>
+            </column>
+            <column>
+                <_attribute>Present Marriage - Duration</_attribute>
+				<_longname>Present Marriage - Duration (m)</_longname>
+                <size>6</size>
+            </column>
+            <column>
+                <_attribute>Total children born</_attribute>
+				<_longname>Total children born (n)</_longname>
+                <size>6</size>
+            </column>
+            <column>
+                <_attribute>All marriages children</_attribute>
+                <_longname>All Marrriages - Living children and step-children under 16 (o)</_longname>
+				<size>7</size>
+            </column>
+			<column>
+                <_attribute>Area of Holding</_attribute>
+                <_longname>(p) Area of Holding 5 st. Acres</_longname>
+				<size>7</size>
             </column>
         </section>
     </form>
