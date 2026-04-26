@@ -20,10 +20,10 @@
             <_attribute>County</_attribute>
         </heading>
 		<heading>
-            <_attribute> (11.) Signature of Registrar</_attribute>
+            <_attribute> (10.) Signature of Registrar</_attribute>
         </heading>
 		<heading>
-            <_attribute> (12.) Baptismal Name if added after Registration of Birth, and Date</_attribute>
+            <_attribute> (11.) Baptismal Name if added after Registration of Birth, and Date</_attribute>
         </heading>
         <section role='Primary' type='person' title='Child'>
 			<column>
@@ -465,22 +465,46 @@
     </form>
 	<form id='IE1926' type='Census' title='1926 Census of Ireland' date='18 April 1926'>
         <heading>
+            <_attribute>Persons</_attribute>
+        </heading>
+		<heading>
+            <_attribute>Males</_attribute>
+        </heading>
+		<heading>
+            <_attribute>Females</_attribute>
+        </heading>
+		<heading>
+            <_attribute>Rooms</_attribute>
+        </heading>
+		<heading>
             <_attribute>County or County Borough</_attribute>
+        </heading>
+		<heading>
+            <_attribute>District Electoral Division or Ward</_attribute>
+        </heading>
+		<heading>
+            <_attribute>Townland</_attribute>
         </heading>
         <heading>
             <_attribute>Urban District, Town or Village</_attribute>
         </heading>
         <heading>
-            <_attribute>District Electoral Division or Ward</_attribute>
+            <_attribute>Street etc with No. of House</_attribute>
         </heading>
         <heading>
-            <_attribute>Enumeration District</_attribute>
+            <_attribute>No. of schedule</_attribute>
         </heading>
-        <heading>
-            <_attribute>Townland or Street</_attribute>
+		<heading>
+            <_attribute>Name of public Institution</_attribute>
         </heading>
-        <heading>
-            <_attribute>Sub-District</_attribute>
+		<heading>
+            <_attribute>Total area in statute acres</_attribute>
+        </heading>
+		<heading>
+            <_attribute>Signature of Head of Household</_attribute>
+        </heading>
+		<heading>
+            <_attribute>Signature of Enumerator</_attribute>
         </heading>
         <section role='Primary' type='multi'>
             <column>
@@ -519,8 +543,8 @@
                 <size>7</size>
             </column>
             <column>
-                <_attribute>Religon</_attribute>
-				<_longname>Religon (h)</_longname>
+                <_attribute>Religion</_attribute>
+				<_longname>Religion (h)</_longname>
                 <size>7</size>
             </column>
 			<column>
@@ -545,12 +569,7 @@
             </column>
             <column>
                 <_attribute>All marriages children</_attribute>
-                <_longname>All Marrriages - Living children and step-children under 16 (o)</_longname>
-				<size>7</size>
-            </column>
-			<column>
-                <_attribute>Area of Holding</_attribute>
-                <_longname>(p) Area of Holding 5 st. Acres</_longname>
+                <_longname>All marriages - Living children and step-children under 16 (o)</_longname>												  
 				<size>7</size>
             </column>
         </section>
